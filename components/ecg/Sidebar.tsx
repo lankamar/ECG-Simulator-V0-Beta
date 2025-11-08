@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Arrhythmia, ArrhythmiaCategory } from '../types';
+import { Arrhythmia, ArrhythmiaCategory } from '../../types';
 import { HeartIcon } from '../constants';
 
 interface SidebarProps {

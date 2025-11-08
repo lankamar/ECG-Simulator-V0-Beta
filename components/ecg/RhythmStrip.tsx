@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, ReferenceLine } from 'recharts';
-import { ECGPoint } from '../types';
+import { ECGPoint } from '../../types';
 
 interface RhythmStripProps {
   data: ECGPoint[];

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Arrhythmia, QuizQuestion } from '../types';
+import { Arrhythmia, QuizQuestion } from '../../types';
 import { BookOpenIcon, BeakerIcon, QuestionMarkCircleIcon } from '../constants';
 
 interface InfoPanelProps {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid } from 'recharts';
-import { ECGPoint } from '../types';
+import { ECGPoint } from '../../types';
 
 interface ZoomModalProps {
   isOpen: boolean;
