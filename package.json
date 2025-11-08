@@ -1,0 +1,31 @@
+{
+  "name": "ecg-simulator-v0-beta",
+  "version": "1.0.0",
+  "description": "Simulador ECG con IA - Versión Beta. Mobile-first UX.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.1",
+    "next": "^16.0.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18"
+  }
+}
